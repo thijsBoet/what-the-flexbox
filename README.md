@@ -101,12 +101,24 @@ space-around: items evenly distributed with equal space around each line
 stretch (default): lines stretch to take up the remaining space
 
 ---
+Alignment of single flex items
+---
+
 Align-self
 
 This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
 
-
-
+---
+Flex properties
 
 Takes width of 1 and evenly distributes it among all items in container
   *flex: 1;*
+
+flex-grow does basically the same.
+
+flex-shrink distributes space when not enough is available
+
+Flex-basis sets the minimal width of an item
+
+Shorthand
+  *flex: grow | shrink | basis;*
