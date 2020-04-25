@@ -2,10 +2,10 @@
 
 Flexbox sure is tricky to learn. Get a grasp on flexbox while learning both the fundamentals and real world applications. Created by Wes Bos (wesbos.com)
 
-Initializes FlexBox inline container
+Initializes FlexBox inline container.
 *display: inline-flex;*
 
-Initializes FlexBox block container
+Initializes FlexBox block container.
 *display: flex;*
 
 Children inherit display flex from container
