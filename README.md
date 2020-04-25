@@ -3,10 +3,10 @@
 Flexbox sure is tricky to learn. Get a grasp on flexbox while learning both the fundamentals and real world applications. Created by Wes Bos (wesbos.com)
 
 Initializes FlexBox inline container
-  *display: inline-flex;*
+*display: inline-flex;*
 
 Initializes FlexBox block container
-  *display: flex;*
+*display: flex;*
 
 Children inherit display flex from container
 
@@ -39,11 +39,26 @@ Wraps all items across container from Right to left and Bottom to top
 Default
   *flex-wrap: nowrap*
 
-### Flex Ordering
+Flex Ordering
 Creates an order ranking for this item
 Default for all items is order: 0
   *order: 1*
 
+### Alignment and centering
+Items are packed toward the start of the flex-direction
+  *justify-content: flex-start;*
+
+Items are packed toward the end of the flex-direction
+  *justify-content: flex-end;*
+
+Items are centered along the line
+  *justify-content: center;*
+
+Items are evenly distributed in the line; first item is on the start line, last item on the end line
+  *justify-content: space-between;*
+
+Items are evenly distributed in the line with equal space around them.
+  *justify-content: space-around;*
 
 
 Takes width of 1 and evenly distributes it among all items in container
